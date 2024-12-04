@@ -15,8 +15,10 @@ Mekanisme Kontensi Akses
 Start Flag digunakan untuk mendeteksi kapan tugas pertama atau kedua dapat mengakses sumber daya bersama.
 Jika Start Flag dalam keadaan "Up", sumber daya dapat diakses.
 Jika Start Flag dalam keadaan "Down", tugas kedua tidak bisa mengakses sumber daya dan LED Biru akan menyala untuk menandakan kontensi akses.
-Demo
-(file)
+
+Link Video Demo
+https://drive.google.com/file/d/1qILxam1RzgKXJZZGh8EzzFH0kZOmbXci/view?usp=sharing
+
 
 Kesimpulan
 Kontensi Akses: Latihan ini menunjukkan bahwa tanpa perlindungan yang memadai (misalnya, semaphore atau mutex), tugas yang berbagi sumber daya bersama dapat menyebabkan gangguan atau kerusakan data.
